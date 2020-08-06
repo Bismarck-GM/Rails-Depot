@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+gem "sprockets-rails", git: 'git://github.com/rails/sprockets-rails.git'
 gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
 
 group :development, :test do
